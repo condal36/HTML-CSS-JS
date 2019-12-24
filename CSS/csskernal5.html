@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>csskernal5</title>
+    <style type="text/css">
+        .box{
+            width: 1200px;
+            height: 1200px;
+        /*    背景顏色*/
+            background: purple;
+        /*    背景圖片*/
+            background-image: url("img/4hello.jpg");
+        /*背景平鋪方式
+        no-repeat:不平鋪
+        repeat-x 水平平舖
+        repeat-y 垂直平舖
+
+        */
+        background-repeat: no-repeat;
+        /*背景大小
+        */
+        background-size: 500px 500px ;
+        /*
+        背景位置
+        水平 left/center/right/數值
+        垂直 top/center/bottom/數值
+        */
+            background-position: center center;
+
+
+        }
+        .bt{
+            width: 100px;
+            height: 30px;
+            color: white;
+            text-align: center;
+            line-height: 30px;
+            font-size: 20px;
+
+            /*background-color: aqua;
+            background-image: url("img/bg.png");*/
+            /*background-repeat: no-repeat;*/
+            /*background-position: 10px center;*/
+            background: #fbbc05 url("img/bg.png") no-repeat 10px center;
+
+        }
+    </style>
+</head>
+<body>
+<div class="box"></div>
+<br/>
+<br/>
+<div class="bt">
+    寫文章
+</div>
+</body>
+</html>

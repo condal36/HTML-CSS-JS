@@ -9,8 +9,22 @@
 #header{
     width: 990px;
     height: 100px;
-    background: red;
+    background: white;
     margin: 0 auto;
+}
+#header .logo{
+    width: 249px;
+    height: 31px;
+    background: blue;
+    float: left;
+    margin: 39px 0px 31px 19px;
+}
+#header .search{
+    width: 229px;
+    height: 31px;
+    background: red;
+    float: right;
+    margin: 39px 20px 31px 0px;
 }
 #nav{
     width: 990px;

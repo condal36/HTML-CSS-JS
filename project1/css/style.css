@@ -1,0 +1,38 @@
+/*重製樣式
+可能內建的標籤會影響排版所以全部重製
+大概是這樣
+*/
+*{
+    margin: 0;
+    padding: 0;
+}
+#header{
+    width: 990px;
+    height: 100px;
+    background: red;
+    margin: 0 auto;
+}
+#nav{
+    width: 990px;
+    height:60px;
+    background: blue;
+    margin: 0 auto;
+ }
+#banner{
+    width: 990px;
+    height:464px;
+    background: purple;
+    margin: 0 auto;
+}
+#news{
+    width: 990px;
+    height:547px;
+    background: green;
+    margin: 0 auto;
+}
+#footer{
+    width: 990px;
+    height:332px;
+    background: gray;
+    margin: 0 auto;
+}

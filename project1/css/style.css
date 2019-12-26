@@ -14,7 +14,7 @@
 }
 #header .logo{
     width: 249px;
-    height: 31px;
+    height: 30px;
     background: blue;
     float: left;
     margin: 39px 0px 31px 19px;
@@ -22,10 +22,10 @@
 #header .search{
     width: 230px;
     height: 31px;
-    background: red;
+    background: #000000;
     float: right;
     margin: 39px 20px 31px 0px;
-    border:1px solid #fefefe;
+    border:1px solid #000000;
 }
 #header .search .text{
     height: 31px;
@@ -34,20 +34,43 @@
     float: left;
     padding-left: 16px;
     font-size: 10px;
-    background: red;
+    color:white;
+    background: #000000;
 }
 #header .search .bt{
     height: 31px;
     border:none;
     width: 26px;
     float: left;
+    background: url(../img/search.png) no-repeat left center ;border:none;
 }
 #nav{
     width: 990px;
     height:60px;
-    background: blue;
+    background: black;
     margin: 0 auto;
  }
+#nav ul{
+    padding-left: 20px;
+}
+#nav ul .last{
+    border-right:none;
+}
+#nav ul li {
+    float: left;
+    list-style: none;
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    border-right:1px solid #4a4a4a;
+    /*離上端的距離*/
+    line-height: 60px;
+    font-size: 13px;
+}
+#nav ul li a{
+    color:white;
+    text-decoration: none;
+}
 #banner{
     width: 990px;
     height:464px;

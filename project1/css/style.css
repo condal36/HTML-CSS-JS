@@ -83,6 +83,16 @@
     background: green;
     margin: 0 auto;
 }
+#news .news1{
+    width:999px;
+    height: 243px;
+    background: red;
+}
+#news .news2{
+    width: 999px;
+    height: 305px;
+    background: blue;
+}
 #footer{
     width: 990px;
     height:332px;

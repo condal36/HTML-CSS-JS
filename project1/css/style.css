@@ -20,11 +20,27 @@
     margin: 39px 0px 31px 19px;
 }
 #header .search{
-    width: 229px;
+    width: 230px;
     height: 31px;
     background: red;
     float: right;
     margin: 39px 20px 31px 0px;
+    border:1px solid #fefefe;
+}
+#header .search .text{
+    height: 31px;
+    width: 188px;
+    border: none;
+    float: left;
+    padding-left: 16px;
+    font-size: 10px;
+    background: red;
+}
+#header .search .bt{
+    height: 31px;
+    border:none;
+    width: 26px;
+    float: left;
 }
 #nav{
     width: 990px;

@@ -88,6 +88,26 @@
     height: 243px;
     background: red;
 }
+#news .news1 .section1{
+    width: 454px;
+    height: 243px;
+    background: gray;
+    float: left;
+    padding-left: 20px;
+    padding-right: 26px;
+}
+#news .news1 .section2{
+    width: 240px;
+    height: 243px;
+    background: white;
+    float: left;
+}
+#news .news1 .section3{
+    width: 259px;
+    height: 243px;
+    background: cadetblue;
+    float: left;
+}
 #news .news2{
     width: 999px;
     height: 305px;

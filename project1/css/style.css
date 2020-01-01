@@ -141,10 +141,26 @@
     color: #acacac;
 }
 #news .news1 .section3{
-    width: 259px;
+    /*width: 259px;*/
+    width: 234px;
     height: 243px;
-    background: cadetblue;
+    background: #fbfbfb url(../img/flower.png) no-repeat right bottom;
     float: left;
+    padding-left: 25px;
+}
+#news .news1 .section3 h3{
+    line-height: 82px;
+    font-size: 19px;
+}
+#news .news1 .section3 a{
+
+}
+#news .news1 .section3 p{
+    width: 180px;
+    line-height: 25px;
+    font-size: 13px;
+    color: #5b5b5b;
+    margin-bottom: 42px;
 }
 #news .news2{
     width: 999px;

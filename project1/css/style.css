@@ -45,7 +45,7 @@
     background: url(../img/search.png) no-repeat left center ;border:none;
 }
 #nav{
-    width: 990px;
+    width: 998px;
     height:60px;
     background: black;
     margin: 0 auto;
@@ -80,7 +80,6 @@
 #news{
     width: 990px;
     height:547px;
-    background: green;
     margin: 0 auto;
 }
 #news .news1{
@@ -163,13 +162,126 @@
     margin-bottom: 42px;
 }
 #news .news2{
-    width: 999px;
-    height: 305px;
-    background: blue;
+    /*width: 999px;*/
+    width:959px;
+    /*height: 305px;*/
+    height:240px;
+
+    padding: 30px 20px 35px 20px;
+}
+#news .news2 h3{
+    line-height: 35px;
+
+}
+#news .news2 .content{
+    height: 204px;
+}
+#news .news2 .content .smallBox{
+    width: 210px;
+    height: 204px;
+    float: left;
+    margin-right: 39px;
+}
+#news .news2 .content .smallBox img{
+    margin-bottom: 18px;
+    float: left;
+}
+#news .news2 .content .smallBox a{
+    margin-top: 18px;
+    line-height: 22px;
+    font-size: 13px;
+    color: #555555;
+    text-decoration: none;
+    text-align: justify;
 }
 #footer{
     width: 990px;
     height:332px;
-    background: gray;
     margin: 0 auto;
+}
+#footer .section1 ul{
+    float: left;
+}
+#footer .section1 ul li{
+    list-style: url("../img/but.png") inside;
+    margin-bottom: 12px;
+}
+#footer .section1 ul li a{
+    text-decoration: none;
+    font-size: 12px;
+    color: #595959;
+}
+#footer .section1{
+    /*width: 990px;*/
+    width: 959px;
+    /*height:250px;*/
+    height: 220px;
+    background: #e5e5e5;
+    padding: 30px 20px 0px 20px;
+}
+#footer .section1 h3{
+    font-size: 16px;
+    font-weight: normal;
+    height: 28px;
+    padding-left: 12px;
+    color: #595959;
+    border-bottom: 1px solid #c2c2c2;
+    margin-bottom: 20px;
+}
+#footer .section1 .view1{
+    width:452px;
+    height:220px;
+    float: left;
+}
+#footer .section1 .view2{
+    width: 152px;
+    height:220px;
+    float: left;
+}
+#footer .section1 .view3{
+    width: 257px;
+    height:220px;
+    float: left;
+}
+#footer .section1 .view3 img{
+    margin:12px 0 0 30px;
+}
+#footer .section2{
+    width: 959px;
+    height:82px;
+    padding:0 20px;
+}
+#footer .section2 .view1{
+    width: 268px;
+    height: 56px;
+    float: left;
+    padding-top: 26px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #888888;
+}
+#footer .section2 .view1 a{
+    font-size: 12px;
+    text-decoration: none;
+    color: #888888;
+}
+#footer .section2 .view1 span{
+    font-size: 12px;
+    text-decoration: none;
+    color: #888888;
+    margin: 0 5px;
+}
+#footer .section2 .view2{
+    width: 630px;
+    height: 56px;
+    float: right;
+    padding-top: 26px;
+}
+#footer .section2 .view2{
+     font-size: 10px;
+     color: #888888;
+     text-align: right;
+ }
+#footer .section2 .view2 a{
+    text-decoration: none;
 }
